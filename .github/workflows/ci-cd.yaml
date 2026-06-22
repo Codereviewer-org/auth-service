@@ -53,7 +53,7 @@ jobs:
       snyk_severity_threshold: high
 
       infra_repository: CodeReviewer-org/platform-deployment
-      dev_infra_ref: test
+      dev_infra_ref: main
       dev_values_path: helm/values-dev.yaml
 
     secrets:
@@ -92,7 +92,7 @@ jobs:
       helm_service_key: auth
 
       infra_repository: CodeReviewer-org/platform-deployment
-      dev_infra_ref: test
+      dev_infra_ref: main
       prod_infra_ref: main
       dev_values_path: helm/values-dev.yaml
       prod_values_path: helm/values-prod.yaml
